@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23727" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="CvN-hn-xAW">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23721"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--About Me-->
+        <scene sceneID="unt-1K-qsS">
+            <objects>
+                <viewController id="llo-yt-TpD" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3jp-dw-eH1">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="👤 About Me" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OIM-7S-Pj2">
+                                <rect key="frame" x="30" y="138" width="150" height="32"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="26"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sox-ha-yWa">
+                                <rect key="frame" x="10" y="190" width="367" height="150.66666666666663"/>
+                                <string key="text">Hi, I’m Akash Verma, a second-year Computer Science student with a passion for building smart, scalable tech solutions. I’ve completed the MERN stack and actively apply my skills through full-stack projects like PG Paradise and an Antique Store Web App. Currently, I’m expanding my horizons by learning Swift.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="YNf-r3-Tes"/>
+                        <color key="backgroundColor" red="0.7610057087630675" green="0.69004005698504944" blue="0.93858506944444442" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="YNf-r3-Tes" firstAttribute="trailing" secondItem="sox-ha-yWa" secondAttribute="trailing" constant="16" id="31N-fN-BmE"/>
+                            <constraint firstItem="OIM-7S-Pj2" firstAttribute="top" secondItem="YNf-r3-Tes" secondAttribute="top" constant="20" id="DyG-xK-Sj4"/>
+                            <constraint firstItem="sox-ha-yWa" firstAttribute="leading" secondItem="YNf-r3-Tes" secondAttribute="leading" constant="10" id="Nfr-tg-036"/>
+                            <constraint firstItem="OIM-7S-Pj2" firstAttribute="leading" secondItem="YNf-r3-Tes" secondAttribute="leading" constant="30" id="Nvv-du-ygg"/>
+                            <constraint firstItem="sox-ha-yWa" firstAttribute="top" secondItem="OIM-7S-Pj2" secondAttribute="bottom" constant="20" id="hnt-kd-JSK"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="About Me" image="person.fill" catalog="system" id="o88-D8-FZp"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Yxi-IL-Qre" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-298.47328244274809" y="823.94366197183103"/>
+        </scene>
+        <!--Hobbies-->
+        <scene sceneID="08d-lU-DE2">
+            <objects>
+                <viewController id="9JP-ns-1nV" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="vFI-24-ukP">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="🎧 My Hobbies" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GyI-Ta-JhZ">
+                                <rect key="frame" x="30" y="138" width="177" height="32"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="26"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dQ7-Ay-98D">
+                                <rect key="frame" x="10" y="190" width="367" height="258"/>
+                                <mutableString key="text">🎵 Listening to Music – Music helps me focus, recharge, and reset. My playlists go with my mood—sometimes chill, sometimes hype.
+
+✈️ Exploring New Places – While not a frequent traveler, I enjoy short trips, exploring nature, and refreshing my mind.
+
+🎬 Watching Tech Videos &amp; Movies – I like watching developer content, documentaries, and an occasional good film or series. provide in a short note</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="f0R-8e-c5i"/>
+                        <color key="backgroundColor" red="1" green="0.64260193171027624" blue="0.23825358994388979" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="GyI-Ta-JhZ" firstAttribute="leading" secondItem="f0R-8e-c5i" secondAttribute="leading" constant="30" id="8d3-p8-q4Z"/>
+                            <constraint firstItem="GyI-Ta-JhZ" firstAttribute="top" secondItem="f0R-8e-c5i" secondAttribute="top" constant="20" id="AvN-Me-F90"/>
+                            <constraint firstItem="f0R-8e-c5i" firstAttribute="trailing" secondItem="dQ7-Ay-98D" secondAttribute="trailing" constant="16" id="bNH-f5-Kmu"/>
+                            <constraint firstItem="dQ7-Ay-98D" firstAttribute="top" secondItem="GyI-Ta-JhZ" secondAttribute="bottom" constant="20" id="nbJ-wu-5Da"/>
+                            <constraint firstItem="dQ7-Ay-98D" firstAttribute="leading" secondItem="f0R-8e-c5i" secondAttribute="leading" constant="10" id="xoL-FC-zuS"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Hobbies" image="figure.basketball" catalog="system" id="xjQ-YK-K1o"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="L9t-AK-Njb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="665" y="824"/>
+        </scene>
+        <!--Contact Me-->
+        <scene sceneID="J7j-d2-pfj">
+            <objects>
+                <viewController id="ulB-q0-Ipm" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kRk-jl-8j4">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="✉️ Contact Me" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ckb-cW-WBB">
+                                <rect key="frame" x="30" y="138" width="173" height="32"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="26"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0LC-Mg-JrF">
+                                <rect key="frame" x="10" y="190" width="367" height="301"/>
+                                <mutableString key="text">Hey! 👋
+If you'd like to connect, collaborate, or just say hi, feel free to reach out through any of the platforms below:
+
+📧 Email: akash1514.be23@chitkara.edu.in
+
+🔗 LinkedIn: https://www.linkedin.com/in/akash-verma-a4b844295/
+
+🐱 GitHub: https://github.com/akashverma1514
+
+Looking forward to hearing from you! 😊</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="IMD-eJ-bSh"/>
+                        <color key="backgroundColor" red="0.88150376081466675" green="0.42818177465116741" blue="0.34796736617694146" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="0LC-Mg-JrF" firstAttribute="leading" secondItem="kRk-jl-8j4" secondAttribute="leading" constant="10" id="KqD-0b-Z0E"/>
+                            <constraint firstItem="ckb-cW-WBB" firstAttribute="top" secondItem="IMD-eJ-bSh" secondAttribute="top" constant="20" id="Q1y-Wq-1wk"/>
+                            <constraint firstItem="ckb-cW-WBB" firstAttribute="leading" secondItem="IMD-eJ-bSh" secondAttribute="leading" constant="30" id="TAd-ED-2pJ"/>
+                            <constraint firstItem="IMD-eJ-bSh" firstAttribute="trailing" secondItem="0LC-Mg-JrF" secondAttribute="trailing" constant="16" id="hZQ-LF-1ap"/>
+                            <constraint firstItem="0LC-Mg-JrF" firstAttribute="top" secondItem="ckb-cW-WBB" secondAttribute="bottom" constant="20" id="jVL-vR-TNA"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Contact Me" image="envelope.badge.person.crop.fill" catalog="system" id="iBx-7b-dJ4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="loT-q0-aMC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1564" y="824"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="waV-C7-BIc">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="CvN-hn-xAW" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="jT9-xG-TzC">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <tabBarAppearance key="scrollEdgeAppearance"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="llo-yt-TpD" kind="relationship" relationship="viewControllers" id="0ot-T6-Nyx"/>
+                        <segue destination="9JP-ns-1nV" kind="relationship" relationship="viewControllers" id="2MU-Wt-cDb"/>
+                        <segue destination="ulB-q0-Ipm" kind="relationship" relationship="viewControllers" id="kdx-8R-LXB"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="g2F-TP-17c" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="494" y="-24"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="envelope.badge.person.crop.fill" catalog="system" width="128" height="94"/>
+        <image name="figure.basketball" catalog="system" width="128" height="124"/>
+        <image name="person.fill" catalog="system" width="128" height="120"/>
+    </resources>
+</document>
